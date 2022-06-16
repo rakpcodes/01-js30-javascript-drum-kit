@@ -12,7 +12,6 @@ const playsound = (e) => {
 
 function removeTransition () {
     this.classList.remove('playing') //this refers to 'key' as it is the owner of the removeTransition function when it is called in the forEach
-    
 }
 
 const keys = document.querySelectorAll('.key');
